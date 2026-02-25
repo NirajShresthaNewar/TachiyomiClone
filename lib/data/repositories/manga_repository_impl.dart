@@ -3,7 +3,6 @@ import 'package:tachiyomiv1/core/error/exceptions.dart';
 import 'package:tachiyomiv1/core/error/failures.dart';
 import 'package:tachiyomiv1/data/datasources/local/manga_local_datasource.dart';
 import 'package:tachiyomiv1/data/datasources/remote/manga_remote_datasource.dart';
-import 'package:tachiyomiv1/data/models/chapter_model.dart';
 import 'package:tachiyomiv1/domain/entities/manga.dart';
 import 'package:tachiyomiv1/domain/repositories/manga_repository.dart';
 import 'package:tachiyomiv1/domain/entities/chapter.dart';

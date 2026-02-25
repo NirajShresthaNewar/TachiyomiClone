@@ -12,7 +12,7 @@ import 'package:tachiyomiv1/presentation/widgets/loading_indicator.dart';
 import 'package:tachiyomiv1/presentation/widgets/empty_state.dart';
 
 class HomePage extends StatelessWidget {
-  const HomePage({Key? key}) : super(key: key);
+  const HomePage({super.key});
 
   @override
   Widget build(BuildContext context) {
@@ -24,7 +24,7 @@ class HomePage extends StatelessWidget {
 }
 
 class HomePageContent extends StatefulWidget {
-  const HomePageContent({Key? key}) : super(key: key);
+  const HomePageContent({super.key});
 
   @override
   State<HomePageContent> createState() => _HomePageContentState();
